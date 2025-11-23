@@ -1,5 +1,7 @@
-public class ProduitFactory2 extends ProduitFactory{
-    protected Produit createProduitA(){
-        return new produitA2;
+public class ProduitFactory2 extends ProduitFactory {
+
+    @Override
+    protected ProduitA createProduitA() {
+        return new ProduitA2();
     }
 }

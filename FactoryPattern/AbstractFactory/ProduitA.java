@@ -1,3 +1,3 @@
-public abstract  class ProduitA{
-    public abstract vooid methodeA();
+public abstract class ProduitA {
+    public abstract void methodeA();
 }
