@@ -26,4 +26,9 @@ public class ProduitFactory {
 
         return produitA;
     }
+
+    protected ProduitA createProduitA() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'createProduitA'");
+    }
 }
